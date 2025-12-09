@@ -1,0 +1,23 @@
+kanan= anak_coklat_kanan;
+kiri= anak_coklat_kiri;
+atas= anak_coklat_atas;
+bawah= anak_coklat_bawah;
+icon_inst = noone;
+sprite_index = bawah
+npc_path = [{ x: 736, y: 352, type: "stop" }, { x: 736, y: 512, type: "stop" }	];
+npc_index = 0;
+npc_speed = 3;
+collision_area = instance_create_layer(x, y, layer, obj_interasi_collision);
+collision_area.parent_npc = id
+bergerak = false;
+rentan = false;
+is_blocked = false;
+if(irandom(1) == 1) bergerak =true;
+punya_pesanan = false;
+selesai = false;
+pesanan = -1;
+jeda_dialog = false;
+is_paused = false;    // apakah NPC sedang berhenti
+pause_condition = false; // kondisi yang bikin NPC pergi
+pause_timer = 0;      // opsional, jika mau berhenti beberapa detik
+char_name = "Liam";

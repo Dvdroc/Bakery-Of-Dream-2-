@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"semua_resep_terbuka",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"semua_resep_terbuka",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

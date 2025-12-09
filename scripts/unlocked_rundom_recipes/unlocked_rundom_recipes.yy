@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"unlocked_rundom_recipes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"unlocked_rundom_recipes",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
