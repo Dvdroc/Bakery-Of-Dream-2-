@@ -45,7 +45,6 @@ if (instance_exists(icon_inst)) {
     icon_inst.x = x + 2.5;
     icon_inst.y = y - 32;
 }
-show_debug_message(pause_condition);
 
 
 if(global.day >= 6 && !is_blocked && pager){

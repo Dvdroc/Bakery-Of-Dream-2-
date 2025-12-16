@@ -36,6 +36,7 @@
     {"name":"inst_47C08117","path":"rooms/toko_dalam/toko_dalam.yy",},
     {"name":"inst_53F37C53","path":"rooms/toko_dalam/toko_dalam.yy",},
     {"name":"inst_2389830E","path":"rooms/toko_dalam/toko_dalam.yy",},
+    {"name":"inst_6DE950DE","path":"rooms/toko_dalam/toko_dalam.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -77,6 +78,7 @@
         {"$GMRInstance":"v2","%Name":"inst_13853CA2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13853CA2","objectId":{"name":"Obj_transisi","path":"objects/Obj_transisi/Obj_transisi.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":128.0,},
         {"$GMRInstance":"v2","%Name":"inst_53F37C53","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53F37C53","objectId":{"name":"Obj_Bocil","path":"objects/Obj_Bocil/Obj_Bocil.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":512.0,},
         {"$GMRInstance":"v2","%Name":"inst_2389830E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2389830E","objectId":{"name":"Obj_sound_meneger","path":"objects/Obj_sound_meneger/Obj_sound_meneger.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":256.0,},
+        {"$GMRInstance":"v2","%Name":"inst_6DE950DE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DE950DE","objectId":{"name":"obj_save_menu","path":"objects/obj_save_menu/obj_save_menu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":192.0,},
       ],"layers":[],"name":"GUI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"kursi","depth":-400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"kursi","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":27,"TileCompressedData":[
           -111,-2147483648,1,208,-5,-2147483648,1,208,-4,-2147483648,1,208,-14,-2147483648,3,208,0,208,-3,0,8,

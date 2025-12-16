@@ -18,7 +18,7 @@ if (!variable_global_exists("recipes")) {
 			{bahan: "Gula pasir", jumlah: 2}                    // 120g -> 2
 		],
 		count: 1,
-		unlocked: false,
+		unlocked: true,
 		harga: 129
 	});
 
@@ -411,6 +411,7 @@ if (global.activity_points <= 0) {
     // misal ubah background, NPC aktif, dll
 }
 
+if(global.day == 40) room_goto(Room7);
 if (global.set_musim >= 10) {
 	// reset poi
     global.set_musim = 1;

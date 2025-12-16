@@ -1,9 +1,3 @@
-if (global.player_locked) {
-    speed = 0;
-    exit;
-}
-
-
 var Kanan = keyboard_check(ord("D")) && bergerak
 var Kiri = keyboard_check(ord("A")) && bergerak
 var Atas = keyboard_check(ord("W")) && bergerak
