@@ -31,7 +31,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"8 5 7.txt","CopyToMask":-1,"filePath":"datafiles","name":"8 5 7.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -65,6 +67,7 @@
     {"id":{"name":"Obj_sound_meneger","path":"objects/Obj_sound_meneger/Obj_sound_meneger.yy",},},
     {"id":{"name":"obj_title_menu","path":"objects/obj_title_menu/obj_title_menu.yy",},},
     {"id":{"name":"Obj_transisi","path":"objects/Obj_transisi/Obj_transisi.yy",},},
+    {"id":{"name":"obj_ujicoba","path":"objects/obj_ujicoba/obj_ujicoba.yy",},},
     {"id":{"name":"challager","path":"rooms/challager/challager.yy",},},
     {"id":{"name":"GUI","path":"rooms/GUI/GUI.yy",},},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
@@ -267,6 +270,7 @@
     {"id":{"name":"Sprite175","path":"sprites/Sprite175/Sprite175.yy",},},
     {"id":{"name":"Textbox","path":"sprites/Textbox/Textbox.yy",},},
     {"id":{"name":"textbox2","path":"sprites/textbox2/textbox2.yy",},},
+    {"id":{"name":"Wajah","path":"sprites/Wajah/Wajah.yy",},},
     {"id":{"name":"waktu","path":"sprites/waktu/waktu.yy",},},
     {"id":{"name":"TileSet_Barang_Barang","path":"tilesets/TileSet_Barang_Barang/TileSet_Barang_Barang.yy",},},
     {"id":{"name":"TileSet_Inside_A2","path":"tilesets/TileSet_Inside_A2/TileSet_Inside_A2.yy",},},
@@ -287,8 +291,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
-    {"roomId":{"name":"toko_dalam","path":"rooms/toko_dalam/toko_dalam.yy",},},
     {"roomId":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
+    {"roomId":{"name":"toko_dalam","path":"rooms/toko_dalam/toko_dalam.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"challager","path":"rooms/challager/challager.yy",},},
     {"roomId":{"name":"GUI","path":"rooms/GUI/GUI.yy",},},

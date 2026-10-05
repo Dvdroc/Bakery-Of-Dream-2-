@@ -246,7 +246,7 @@ if (keyboard_check_pressed(ord("F")) && !global.dialog_open) {
 
 	            // Dialog pertama saat memesan
 	            var d = instance_create_layer(0, 0, "GUI", obj_dialogue);
-	            d.portrait_sprite = asset_get_index("MC_GC");
+	            d.portrait_sprite = asset_get_index("Wajah");
 	            d.dialogue_text = "Saya ingin pesanan: " + string(global.recipes[cust.pesanan].name);
 	            d.draw_text_display = " ";
 				d.source_npc = cust.id;
@@ -298,7 +298,7 @@ if (keyboard_check_pressed(ord("F")) && !global.dialog_open) {
 			
 	        var d = instance_create_layer(0, 0, "GUI", obj_dialogue);
 	        d.list_data = list_pesanan;
-			d.portrait_sprite = asset_get_index("MC_GC");
+			d.portrait_sprite =  asset_get_index("Wajah");
 	        d.dialogue_text = "Saya ingin pesanan: " + string(global.recipes[cust.pesanan].name);
 	        d.draw_text_display = " ";
 	        d.dialog_type = "npc_order";

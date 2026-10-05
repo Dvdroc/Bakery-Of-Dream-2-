@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-// NPC Customer
 // Status pesanan
 punya_pesanan = false;
 pesanan = -1;
@@ -24,14 +22,9 @@ seated = false;         // sudah sampai tempat duduk
 counted = false;
 icon_inst = noone;
 seated_counted = false;
-/// SETUP NPC AKTIF ATAU TIDAK
-// Tentukan minimal & maksimal NPC yang boleh bergerak
-
-
-// Kalau pertama kali dibuat → hitung total NPC yang boleh aktif
 show_debug_message(string(global.npc_aktiv_target));
 
-// RANDOM: apakah NPC ini aktif?
+// RANDOM: apakah NPC ini aktif
 if (global.npc_aktif_count < global.npc_aktiv_target) {
     npc_move = (irandom(1) == 1);  // 50% chance aktif
     if (npc_move) global.npc_aktif_count += 1;

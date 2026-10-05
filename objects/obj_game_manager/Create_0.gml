@@ -309,7 +309,7 @@ if (!variable_global_exists("recipes")) {
 	ds_map_add(global.inventory, "Gula halus", 0);
 
 	// Kategori Mentega
-	ds_map_add(global.inventory, "Mentega", 0);
+	ds_map_add(global.inventory, "Mentega",0);
 
 	// Kategori Telur
 	ds_map_add(global.inventory, "Telur", 0);

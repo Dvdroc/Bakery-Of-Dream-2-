@@ -36,7 +36,7 @@ if (selected != -1 && mouse_check_button_pressed(mb_left)) {
     switch(selected) {
         case 0: // --- NEW GAME ---
             // Pindah ke room gameplay pertama
-            room_goto(toko_dalam); 
+            room_goto(Room7); 
             break;
             
         case 1: // --- LOAD GAME ---

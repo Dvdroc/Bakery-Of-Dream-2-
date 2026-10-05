@@ -44,7 +44,7 @@ if(global.day == 1){
 	    }
 	}
 }
-if(global.day == 40 && global.gold < 30000 && global.reputation < 100){
+if(global.day == 40 && (global.gold < 30000 || global.reputation < 100)){
 	if (is_array(bad_dialog_lines) && !global.dialog_open && dialog_index == 0 ) {
         var d = instance_create_layer(0, 0, "GUI", obj_dialogue);
 
